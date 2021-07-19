@@ -12,6 +12,7 @@ import { createGlobalStyle } from "styled-components";
     --font-light-color:#a4acc4;
     --font-dark-color:#313131;
     --font-dark-color-2:#151515;
+    --sidebar-dark-color:#191d2b;
 
 }
     *{
@@ -20,10 +21,17 @@ import { createGlobalStyle } from "styled-components";
         text-decoration:none;
         list-style: none;
         box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+        font-size:1.2rem;
     }
     body{
-        background-color:var(--background-light-color);
-
+        background-color:var(--background-dark-color);
+        color:var(--font-light-color);
+    }
+    a{
+        font-family:inherit;
+        color:inherit;
+        font-size:inherit;
     }
 `
 export default GlobalStyle;
