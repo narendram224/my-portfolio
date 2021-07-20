@@ -32,6 +32,17 @@ import { createGlobalStyle } from "styled-components";
         font-family:inherit;
         color:inherit;
         font-size:inherit;
+        font-size:1rem;
+    }
+    h1{
+        font-size:3rem;
+        color:var(--white-color);
+        span{
+            font-size:inherit; 
+        }
+    }
+    span{
+        color:var(--primary-color);
     }
 `
 export default GlobalStyle;

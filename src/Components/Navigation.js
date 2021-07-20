@@ -13,12 +13,15 @@ const Navigation = () => {
                     <NavLink to="/home" activeClassName="nav-active">Home</NavLink>
                 </li>
                 <li className="nav-item">
+                    <NavLink to="/about" activeClassName="nav-active">About</NavLink>
+                </li>
+                <li className="nav-item">
                     <NavLink to="/resume" activeClassName="nav-active">Resume</NavLink>
                 </li> <li className="nav-item">
                     <NavLink to="/portfolios" activeClassName="nav-active">PortFolio</NavLink>
-                </li> <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="nav-active">Blogs</NavLink>
-                </li> <li className="nav-item">
+                </li>
+                 
+                 <li className="nav-item">
                     <NavLink to="/contact" activeClassName="nav-active">Contact</NavLink>
                 </li>
             </ul>
@@ -59,6 +62,9 @@ const NavigationStyled = styled.nav`
                 display:block;
                 position: relative;
                 padding:0.2rem 0;
+                letter-spacing:1px;
+                text-transform:uppercase;
+                transition:all 0.4s ease-in-out;
                 &:hover{
                     cursor: pointer;
                 }
