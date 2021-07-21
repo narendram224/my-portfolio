@@ -8,7 +8,7 @@ import PortfolioPage from './Pages/PortfolioPage';
 import ContactPage from './Pages/ContactPage';
 function App() {
   return (
-    <Router initialRoute="/home" >
+    <Router initialRoute="home" >
     <AppWrapper>
      <SideBar />
      <MainWrapper>
@@ -19,7 +19,7 @@ function App() {
          <div className="line-4"></div>
        </div>
        <Switch>
-         <Route path="/home" exact>
+         <Route path="/home" >
            <HomePage />
          </Route>
          <Route path="/about" exact>
