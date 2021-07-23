@@ -5,6 +5,8 @@ import { createGlobalStyle } from "styled-components";
     --primary-color:#007bff;
     --secondary-color:#6c757d;
     --background-dark-color:#10121A;
+    --background-dark-gray:#191d2b;
+
     --background-light-color:#F1F1F1;
     --background-light-color-2:rgba(3,127,255,0.3);
 
