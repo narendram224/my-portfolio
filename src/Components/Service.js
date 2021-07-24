@@ -32,8 +32,7 @@ const Service = () => {
 }
 const ServiceStyle =styled.section`
     .services{
-margin-top:5rem;
-
+        margin-top:5rem;
         display:flex;
         justify-content:space-between;
     }

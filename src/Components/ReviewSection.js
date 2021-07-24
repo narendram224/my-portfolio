@@ -21,7 +21,7 @@ const ReviewSection = () => {
 
 const ReviewSectionStyle = styled.section`
         .reviews{
-                
+                display:flex;
         }
 `
 export default ReviewSection
