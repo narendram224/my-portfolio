@@ -19,15 +19,15 @@ const ContactSection = () => {
         
 },{
     icon:<EmailIcon/>,
-    title:"Phone Number",
+    title:"Email Address",
     contact1:"narendram224@gmail.com",  
-    contact2:"9918569439",
+    contact2:"narendram224.nm@gmail.com ",
     
 },{
     icon:<LocationOnIcon/>,
-    title:"Vill sdsfsds",
-    contact1:"7905325093",  
-    contact2:"9918569439",
+    title:"Address",
+    contact1:"Mirzapur ,Uttar Pradesh,India",  
+    contact2:"pin:231307",
     
 }]
     return (
@@ -79,6 +79,11 @@ const ContactSectionStyle = styled.section`
     .contact-section{
         display:grid;
         grid-template-columns:repeat(2,1fr);
+        grid-column-gap:1.5rem;
+        .right-action {
+            display:flex;
+            flex-direction:column;
+        }
         .contact-title{
             h4{
                 color:var(--white-color);
