@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 
 
-const ContactItems = ({icons,title,contact1,contact2}) => {
+const ContactItems = ({icon,title,contact1,contact2}) => {
     return (
         <ContactItemStyle>
             <div className="left-content">
-    <p>{icons}</p>
+    <p>{icon}</p>
             </div>
             <div className="right-content">
     <h6>{title}</h6>

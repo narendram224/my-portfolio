@@ -7,8 +7,29 @@ import PrimaryButton from './PrimaryButton'
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import ContactItems from './ContactItems'
+
 
 const ContactSection = () => {
+    const ContactDetials = [{
+        icon:<PhoneIcon/>,
+        title:"Phone Number",
+        contact1:"7905325093",  
+        contact2:"9918569439",
+        
+},{
+    icon:<EmailIcon/>,
+    title:"Phone Number",
+    contact1:"narendram224@gmail.com",  
+    contact2:"9918569439",
+    
+},{
+    icon:<LocationOnIcon/>,
+    title:"Vill sdsfsds",
+    contact1:"7905325093",  
+    contact2:"9918569439",
+    
+}]
     return (
         <MainLaout>
             <Title title="Contact" span="Contact" />
@@ -37,7 +58,15 @@ const ContactSection = () => {
                     </form>
                 </div>
                 <div className="right-action">
-                    <Contanctitem
+                    {
+                        ContactDetials.map((cItem)=> <ContactItems {...cItem} />)
+                    }
+                    {/* <ContactItems
+                    icon={<PhoneIcon/>}
+                    title="Phone Number"
+                    contact1={7905325093}   
+                    contact2={9918569439}
+                    /> */}
                 </div>
             </InnerLaout>
             </ContactSectionStyle>
