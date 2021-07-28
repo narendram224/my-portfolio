@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Skills from '../Components/Skills'
 import styled from 'styled-components'
 import Resume from '../Components/Resume'
 import { MainLayout } from '../Styled/Layout'
 
-const ResumePage = () => {
+const ResumePage = ({ setTitle }) => {
+    useEffect(() => setTitle('Resume'), [])
+
     return (
         <MainLayout>
             <ResumeStyled>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { MainLayout } from '../Styled/Layout'
 import Title from '../Components/Title'
@@ -6,7 +6,9 @@ import ImageSection from '../Components/ImageSection'
 import Service from '../Components/Service'
 import ReviewSection from '../Components/ReviewSection'
 
-const AboutPage = () => {
+const AboutPage = ({ setTitle }) => {
+    useEffect(() => setTitle('About'), [])
+
     return (
         <MainLayout>
             <AboutStyle>

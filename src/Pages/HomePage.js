@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import Particless from '../Components/Particles'
 import ListAlt from '@material-ui/icons/AssessmentOutlined'
 import FacebookIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 
-const HomePage = () => {
+const HomePage = ({ setTitle }) => {
+    useEffect(() => setTitle('Home'), [])
     return (
         <HomeHeaderStyle>
             <div className="p-particle">
