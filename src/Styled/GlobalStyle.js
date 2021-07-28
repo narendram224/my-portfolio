@@ -1,7 +1,7 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
- const GlobalStyle  = createGlobalStyle`
-:root{
+const GlobalStyle = createGlobalStyle`
+/* :root{
     --primary-color:#007bff;
     --secondary-color:#6c757d;
     --background-dark-color:#10121A;
@@ -17,8 +17,43 @@ import { createGlobalStyle } from "styled-components";
     --font-dark-color:#313131;
     --font-dark-color-2:#151515;
     --sidebar-dark-color:#191d2b;
+} */
 
+.light-theme {
+    --primary-color:#007bff;
+    --secondary-color:#6c757d;
+    --background-dark-color:#F1F1F1;
+    --background-dark-gray:#e4e4e4;
+
+    --background-light-color:#F1F1F1;
+    --background-light-color-2:rgba(3,127,255,0.3);
+
+
+    --border-color:#cbced8;
+    --white-color:#151515;
+    --font-light-color:#313131;
+    --font-dark-color:#313131;
+    --font-dark-color-2:#151515;
+    --sidebar-dark-color:#e4e4e4;
 }
+.dark-theme{
+    --primary-color:#007bff;
+    --secondary-color:#6c757d;
+    --background-dark-color:#10121A;
+    --background-dark-gray:#191d2b;
+
+    --background-light-color:#F1F1F1;
+    --background-light-color-2:rgba(3,127,255,0.3);
+
+
+    --border-color:#2e344e;
+    --white-color:#fff;
+    --font-light-color:#a4acc4;
+    --font-dark-color:#313131;
+    --font-dark-color-2:#151515;
+    --sidebar-dark-color:#191d2b;
+}
+
     *{
         margin: 0;
         padding: 0;
@@ -27,10 +62,34 @@ import { createGlobalStyle } from "styled-components";
         box-sizing: border-box;
         font-family: 'Nunito', sans-serif;
         font-size:1.2rem;
+    @media screen and (max-width:1000px){
+        font-size:1.1rem;
+    }
+    @media screen and (max-width:720px){
+        font-size:0.9rem;
+    }
+    @media screen and (max-width:600px){
+        font-size:0.8rem;
+    }
+    @media screen and (max-width:500px){
+        font-size:0.8rem;
+    }
     }
     body{
         background-color:var(--background-dark-color);
         color:var(--font-light-color);
+    }
+    body::-webkit-scrollbar{
+        width:6px;
+        background-color:#383838;
+    }
+    body::-webkit-scrollbar-thumb{
+        border-radius:10px;
+        background-color:#6b6b6b;
+    }
+    body::-webkit-scrollbar-track{
+        border-radius:10px;
+        background-color:#383838;
     }
     a{
         font-family:inherit;
@@ -49,4 +108,4 @@ import { createGlobalStyle } from "styled-components";
         color:var(--primary-color);
     }
 `
-export default GlobalStyle;
+export default GlobalStyle

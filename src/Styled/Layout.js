@@ -1,10 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-
-export const MainLaout = styled.div`
-    padding:5rem;
+export const MainLayout = styled.div`
+    padding: 5rem;
 `
 
-export const InnerLaout = styled.div`
-    padding:5rem 0;
+export const InnerLayout = styled.div`
+    padding: 5rem 0;
 `

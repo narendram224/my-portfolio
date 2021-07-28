@@ -24,6 +24,18 @@ const ResumeItemStyled = styled.div`
     .left-content{
         width:40%;
         padding-left:20px; 
+        position:relative;
+        &::before{
+            content:"";
+            position:absolute;
+            top:10px;
+            left:-7.8px;
+            height:13px;
+            width:13px;
+            border-radius:50%;
+            border:1px solid var(--border-color);
+            background-color:var(--background-dark-color);
+        }   
         p{
             display:inline-block;
             font-size:0.8rem;
