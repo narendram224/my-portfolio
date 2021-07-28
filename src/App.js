@@ -6,6 +6,7 @@ import {
     BrowserRouter as Router,
     Route,
     Switch as Switchs,
+    Redirect,
 } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import AboutPage from './Pages/AboutPage'
@@ -25,7 +26,7 @@ function App() {
         document.documentElement.className = theme
     }, [theme])
     return (
-        <Router initialRoute="home">
+        <Router initialRoute="/home">
             <AppWrapper>
                 <SideBar navToggle={navToggle} />
                 <div className="theme">
@@ -84,6 +85,12 @@ function App() {
                         <Route path="/contact" exact>
                             <ContactPage />
                         </Route>
+                        <Route
+                            exact
+                            path="/"
+                            render={() => <Redirect to="/home" />}
+                        />
+                        <Route path="*" component={HomePage} />
                     </Switchs>
                 </MainWrapper>
             </AppWrapper>

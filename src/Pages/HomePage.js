@@ -22,17 +22,20 @@ const HomePage = () => {
                     <div className="icons">
                         <a
                             href="https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/"
-                            className="icon i-facebook">
+                            className="icon i-facebook"
+                            target="_blank">
                             <FacebookIcon />
                         </a>
                         <a
                             href="https://github.com/narendram224/"
-                            className="icon i-github">
+                            className="icon i-github"
+                            target="_blank">
                             <GitHubIcon />
                         </a>
                         <a
                             href="https://stackoverflow.com/users/11711849/narendra-maurya"
-                            className="icon i-stack">
+                            className="icon i-stack"
+                            target="_blank">
                             <ListAlt />
                         </a>
                     </div>
