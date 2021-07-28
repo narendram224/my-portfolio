@@ -44,7 +44,7 @@ const Navigation = () => {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 Narendra Portfolio Website</p>
+                <p>&#169;2021 Narendra Portfolio WebSite</p>
             </footer>
         </NavigationStyled>
     )
@@ -139,7 +139,7 @@ const NavigationStyled = styled.nav`
         border-top: 1px solid var(--border-color);
         width: 100%;
         p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             padding: 0.6rem 0;
             text-align: center;
             display: block;
