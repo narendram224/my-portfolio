@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import Particless from '../Components/Particles'
 import ListAlt from '@material-ui/icons/AssessmentOutlined'
 import FacebookIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 
-const HomePage = () => {
+const HomePage = ({ setTitle }) => {
+    useEffect(() => setTitle('Home'), [])
     return (
         <HomeHeaderStyle>
             <div className="p-particle">
@@ -17,22 +18,25 @@ const HomePage = () => {
                     <p>
                         "On the paper I have 1.3 years of experience but in
                         reality the company given to me 3 years of experience
-                        beacause I am a <span>Complan</span> boy. "
+                        beacause I'm a <span>Complan</span> boy. "
                     </p>
                     <div className="icons">
                         <a
                             href="https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/"
-                            className="icon i-facebook">
+                            className="icon i-facebook"
+                            target="_blank">
                             <FacebookIcon />
                         </a>
                         <a
                             href="https://github.com/narendram224/"
-                            className="icon i-github">
+                            className="icon i-github"
+                            target="_blank">
                             <GitHubIcon />
                         </a>
                         <a
                             href="https://stackoverflow.com/users/11711849/narendra-maurya"
-                            className="icon i-stack">
+                            className="icon i-stack"
+                            target="_blank">
                             <ListAlt />
                         </a>
                     </div>

@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ContactSection from '../Components/ContactSection'
 
-const ContactPage = () => {
+const ContactPage = ({ setTitle }) => {
+    useEffect(() => setTitle('Contact'), [])
+
     return (
         <div>
             <ContactSection />

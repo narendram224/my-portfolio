@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const SwingItem = ({ icons, primary }) => {
-    console.log('pria', primary)
-
+const SwingItem = ({ icons, primary, href }) => {
     return (
         <SwingItemStyled primary={primary}>
             <ShapeRope primary={primary}></ShapeRope>
-            <ShapeDiv primary={primary} href="" target="_blank">
+            <ShapeDiv primary={primary} href={href} target="_blank">
                 {icons}
             </ShapeDiv>
         </SwingItemStyled>

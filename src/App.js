@@ -6,6 +6,7 @@ import {
     BrowserRouter as Router,
     Route,
     Switch as Switchs,
+    Redirect,
 } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import AboutPage from './Pages/AboutPage'
@@ -21,11 +22,14 @@ import { IconButton } from '@material-ui/core'
 function App() {
     const [theme, settheme] = useState('dark-theme')
     const [navToggle, setnavToggle] = useState(false)
+    const [title, setTitle] = useState('Home')
+
     useEffect(() => {
         document.documentElement.className = theme
-    }, [theme])
+        document.title = title
+    }, [theme, title])
     return (
-        <Router initialRoute="home">
+        <Router initialRoute="/home">
             <AppWrapper>
                 <SideBar navToggle={navToggle} />
                 <div className="theme">
@@ -70,20 +74,26 @@ function App() {
 
                     <Switchs>
                         <Route path="/home">
-                            <HomePage />
+                            <HomePage setTitle={setTitle} />
                         </Route>
                         <Route path="/about" exact>
-                            <AboutPage />
+                            <AboutPage setTitle={setTitle} />
                         </Route>
                         <Route path="/resume" exact>
-                            <ResumePage />
+                            <ResumePage setTitle={setTitle} />
                         </Route>
                         <Route path="/portfolios" exact>
-                            <PortfolioPage />
+                            <PortfolioPage setTitle={setTitle} />
                         </Route>
                         <Route path="/contact" exact>
-                            <ContactPage />
+                            <ContactPage setTitle={setTitle} />
                         </Route>
+                        <Route
+                            exact
+                            path="/"
+                            render={() => <Redirect to="/home" />}
+                        />
+                        <Route path="*" component={HomePage} />
                     </Switchs>
                 </MainWrapper>
             </AppWrapper>

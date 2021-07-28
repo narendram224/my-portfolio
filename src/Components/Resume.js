@@ -26,7 +26,7 @@ const resumeContents = [
         text: [
             'Making hybrid app by using Ionic framework and perform rest api with Asyc await.',
             'Made webPages using Angular8 rxjs and reusable atomic, isolated, optimized components with scalable code.',
-            'Deployment knowledge using Heroku and Ec2 with Docker images. Familiear with Jenkins and Nginx',
+            'Deployment knowledge using Heroku and Ec2 with Docker images. Familiear with Jenkins and Nginx.',
         ],
     },
     {
@@ -36,7 +36,7 @@ const resumeContents = [
         text: [
             'Learn Angular 6 and its core concept with RXJS.',
             'Making Component and passing data to it . ',
-            'AWS service for Serverless microservices learn and made using by (S3,AWS lamda,dynamoDB,IMA) and deployed webPages on EC2',
+            'AWS service for Serverless microservices learn and made using by (S3,AWS lamda,dynamoDB,IMA) and deployed webPages on EC2.',
         ],
     },
 ]
