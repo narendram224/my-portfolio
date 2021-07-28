@@ -6,6 +6,7 @@ const ResumeItem = ({ year, title, subTitle, text }) => {
         <ResumeItemStyled>
             <div className="left-content">
                 <p>{year}</p>
+                {/* <p>Hellos</p> */}
             </div>
             <div className="right-content">
                 <h5>{title}</h5>
@@ -34,8 +35,12 @@ const ResumeItemStyled = styled.div`
     }
     .left-content {
         width: 40%;
+        max-width: 200px;
+
+        /* padding: 0 20px 0 2rem; */
         padding-left: 20px;
         position: relative;
+        /* background-color: red; */
         &::before {
             content: '';
             position: absolute;
@@ -55,6 +60,8 @@ const ResumeItemStyled = styled.div`
     .right-content {
         padding-left: 3rem;
         position: relative;
+        width: 80%;
+        /* background-color: white; */
         &::before {
             content: '';
             position: absolute;
@@ -73,6 +80,9 @@ const ResumeItemStyled = styled.div`
             padding-bottom: 0.1rem;
             font-size: 0.9rem;
             color: var(--white-color);
+        }
+        p {
+            word-break: break-all;
         }
         .skill-contents {
             position: relative;

@@ -15,7 +15,7 @@ export const portfolios = [
     {
         id: 2,
         category: 'Reactjs',
-        image: './assets/img1.jpg',
+        image: './assets/img4.png',
         github: 'https://github.com/narendram224/React_formik',
         linkedin:
             'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
@@ -27,8 +27,7 @@ export const portfolios = [
         category: 'MEAN Stack',
         image: './assets/img1.jpg',
         github: 'https://github.com/narendram224/amazonClone',
-        linkedin:
-            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        linkedin: 'https://amzfront.herokuapp.com/',
         title: 'Fully Featured Amazon clone using MEAN stack technologies',
         text:
             'Libraries & Tools: Angular-7,Rxjs,Nodejs,Express,Cors,Mongoose,MongoDb,Bootstrap,fetchApi etc',
@@ -36,10 +35,9 @@ export const portfolios = [
     {
         id: 3,
         category: 'MEAN Stack',
-        image: './assets/img1.jpg',
+        image: './assets/img2.jpg',
         github: ':https://github.com/narendram224/dltfront',
-        linkedin:
-            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        linkedin: 'https://dltfront.herokuapp.com/',
         title: 'URL shortner App',
         text: 'Libraries& Tools: Angular,Nodejs,Expressjs,Mongoose,MongoDb',
     },
@@ -47,7 +45,7 @@ export const portfolios = [
     {
         id: 5,
         category: 'Angular',
-        image: './assets/img1.jpg',
+        image: './assets/img3.png',
         github: 'https://github.com/narendram224/angularDocker',
         linkedin:
             'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',

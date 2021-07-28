@@ -57,6 +57,7 @@ const ServiceCardStyle = styled.div`
         }
         p {
             padding: 0.8rem 0;
+            word-break: break-all;
         }
     }
 `

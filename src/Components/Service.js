@@ -10,18 +10,21 @@ import ServiceCard from './ServiceCard'
 const serviceArry = [
     {
         image: web,
-        title: 'My first title',
-        paragraph: 'this si my first param grapth',
+        title: 'WebSite Developement',
+        paragraph:
+            'Reactwith typescript,Redux,React-Hooks,Formik,MaterialUi,Styled-components',
     },
     {
         image: api,
-        title: 'My first title2',
-        paragraph: 'this si my first param grapth',
+        title: 'Rest Api Developement',
+        paragraph:
+            'Rest Api using Nodejs expressjs or Nestjs with JWt,Bcrypt and Passportjs',
     },
     {
         image: mern,
-        title: 'My first title3',
-        paragraph: 'this si my first param grapth',
+        title: 'MERN Stack Developement',
+        paragraph:
+            'Fully Featured Mern stack development with JWT authentication',
     },
 ]
 

@@ -6,15 +6,20 @@ const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src={resume} alt="resume Img" />
+                <img src="./assets/img42.jpg" alt="" />
+                {/* <img src="./assets/opentoWork.png" alt="resume Img" /> */}
             </div>
             <div className="right_content">
                 <div className="sub_title">
                     <h4>
-                        I am <span>Lorem ipusm</span>
+                        I am <span>Narendra</span>
                     </h4>
                 </div>
-                <p className="paragraph">lrorw rfsforwr fsfs show goods</p>
+                <p className="paragraph">
+                    Passionate & Professional React and Mern stack
+                    developer,with rich experience of Rest api and web
+                    development
+                </p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
@@ -45,7 +50,11 @@ const ImageSection = () => {
                         </p>
                     </div>
                 </div>
-                <PrimaryButton title="Download Resume" />
+                <PrimaryButton
+                    title="Download Resume"
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1BHCotkE_2emk4S4PLDBqhnxFrAHf-mM_/view?usp=sharing"
+                />
             </div>
         </ImageSectionStyled>
     )
@@ -54,6 +63,14 @@ const ImageSectionStyled = styled.div`
     margin-top: 5rem;
     display: flex;
     .left_content {
+        position: relative;
+        .posiIcon {
+            position: absolute;
+            width: 49%;
+            border-radius: 63%;
+            left: 10%;
+            top: -10%;
+        }
         width: 100%;
         img {
             width: 90%;

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Github from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-
+// import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import LinkedInIcon from '@material-ui/icons/Language'
 const Menu = ({ menuItems }) => {
     return (
         <MenuItemStyled>

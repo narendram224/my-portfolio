@@ -10,12 +10,7 @@ const ReviewSection = () => {
             <Title title="Reviews" span="Reviews" />
             <InnerLayout>
                 <div className="reviews">
-                    <ReviewItem text="lorene   ds fs re re s f s f r fsfksfasf a fa as fas fas fas fa faf" />
-                    <ReviewItem text="lorene   ds fs re re s f s f r fsfksfasf a fa as fas fas fas fa faf" />
-                    <ReviewItem text="lorene   ds fs re re s f s f r fsfksfasf a fa as fas fas fas fa faf" />
-
-                    <ReviewItem text="lorene   ds fs re re s f s f r fsfksfasf a fa as fas fas fas fa faf" />
-                    <ReviewItem text="lorene   ds fs re re s f s f r fsfksfasf a fa as fas fas fas fa faf" />
+                    <ReviewItem text="No reviews yet" />
                 </div>
             </InnerLayout>
         </ReviewSectionStyle>

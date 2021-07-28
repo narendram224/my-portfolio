@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PrimaryButton = ({ title }) => {
-    return <PrimaryButtonStyle>{title}</PrimaryButtonStyle>
+const PrimaryButton = ({ title, ...rest }) => {
+    return <PrimaryButtonStyle {...rest}>{title}</PrimaryButtonStyle>
 }
 
 const PrimaryButtonStyle = styled.a`
