@@ -1,7 +1,7 @@
 export const portfolios = [
     {
         id: 1,
-        category: 'MERN Stack',
+        category: 'MERN',
         image: './assets/img1.jpg',
         github: 'https://github.com/narendram224/shopFree',
         linkedin:
@@ -15,16 +15,25 @@ export const portfolios = [
     {
         id: 2,
         category: 'Reactjs',
+        image: './assets/img6.jpg',
+        github: 'https://github.com/narendram224/my-portfolio',
+        linkedin: 'https://narendra224.herokuapp.com/home',
+        title: 'OPEN SOURCE,Reactjs Portfolio webApp',
+        text: 'Libraries:React,React-Hooks, Styled-components, Material-Ui',
+    },
+    {
+        id: 3,
+        category: 'Reactjs',
         image: './assets/img4.png',
         github: 'https://github.com/narendram224/React_formik',
-        linkedin:
-            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        linkedin: 'https://narendra224.herokuapp.com/home',
         title: 'React formik best practice',
         text: 'Libraries:Reactjs,React formik,ReactHooks,Chakra-ui,Yup',
     },
+
     {
         id: 4,
-        category: 'MEAN Stack',
+        category: 'MEAN',
         image: './assets/img1.jpg',
         github: 'https://github.com/narendram224/amazonClone',
         linkedin: 'https://amzfront.herokuapp.com/',
@@ -33,8 +42,8 @@ export const portfolios = [
             'Libraries & Tools: Angular-7,Rxjs,Nodejs,Express,Cors,Mongoose,MongoDb,Bootstrap,fetchApi etc',
     },
     {
-        id: 3,
-        category: 'MEAN Stack',
+        id: 5,
+        category: 'MEAN',
         image: './assets/img2.jpg',
         github: ':https://github.com/narendram224/dltfront',
         linkedin: 'https://dltfront.herokuapp.com/',
@@ -43,7 +52,7 @@ export const portfolios = [
     },
 
     {
-        id: 5,
+        id: 6,
         category: 'Angular',
         image: './assets/img3.png',
         github: 'https://github.com/narendram224/angularDocker',

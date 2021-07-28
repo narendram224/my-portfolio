@@ -17,7 +17,7 @@ const HomePage = () => {
                     <p>
                         "On the paper I have 1.3 years of experience but in
                         reality the company given to me 3 years of experience
-                        beacause I am a <span>Complan</span> boy. "
+                        beacause I'm a <span>Complan</span> boy. "
                     </p>
                     <div className="icons">
                         <a

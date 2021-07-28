@@ -11,8 +11,15 @@ const Navigation = () => {
             <div className="avatar">
                 <img src={avatar} alt="" />
                 <div className="swing-section">
-                    <SwingItem icons={<GitHubIcon />} />
-                    <SwingItem icons={<LinkedInIcon />} primary={true} />
+                    <SwingItem
+                        icons={<GitHubIcon />}
+                        href="https://github.com/narendram224"
+                    />
+                    <SwingItem
+                        icons={<LinkedInIcon />}
+                        primary={true}
+                        href="https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/"
+                    />
                 </div>
             </div>
 
