@@ -1,47 +1,57 @@
 export const portfolios = [
     {
         id: 1,
-        category: 'Reactjs',
+        category: 'MERN Stack',
         image: './assets/img1.jpg',
-        github: 'http://www.github.com/narendram224',
-        linkedin: 'http://www.linkedin.com/narendram224',
-        title: 'How to get Data form React',
-        text: 'Num of programming languages',
+        github: 'https://github.com/narendram224/shopFree',
+        linkedin:
+            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        title: 'Free Ecommerce website using mern stck technologies',
+        text: `FrontEnd is still pending,
+            Libraries:Expressjs,
+            Nodejs,JWT,Bcrypt,cors
+            Mongodb,mongoose`,
     },
     {
         id: 2,
-        category: 'Docker',
+        category: 'Reactjs',
         image: './assets/img1.jpg',
-        github: 'http://www.github.com/narendram224',
-        linkedin: 'http://www.linkedin.com/narendram224',
-        title: 'How to sfsfsfsf React',
-        text: 'Num of programming languages',
-    },
-    {
-        id: 3,
-        category: 'Nodejs',
-        image: './assets/img1.jpg',
-        github: 'http://www.github.com/narendram224',
-        linkedin: 'http://www.linkedin.com/narendram224',
-        title: 'How to use React',
-        text: 'Num of programming languages',
+        github: 'https://github.com/narendram224/React_formik',
+        linkedin:
+            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        title: 'React formik best practice',
+        text: 'Libraries:Reactjs,React formik,ReactHooks,Chakra-ui,Yup',
     },
     {
         id: 4,
-        category: 'Express',
+        category: 'MEAN Stack',
         image: './assets/img1.jpg',
-        github: 'http://www.github.com/narendram224',
-        linkedin: 'http://www.linkedin.com/narendram224',
-        title: 'How to use React',
-        text: 'Num of programming languages',
+        github: 'https://github.com/narendram224/amazonClone',
+        linkedin:
+            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        title: 'Fully Featured Amazon clone using MEAN stack technologies',
+        text:
+            'Libraries & Tools: Angular-7,Rxjs,Nodejs,Express,Cors,Mongoose,MongoDb,Bootstrap,fetchApi etc',
     },
     {
-        id: 5,
-        category: 'Reactjs',
+        id: 3,
+        category: 'MEAN Stack',
         image: './assets/img1.jpg',
-        github: 'http://www.github.com/narendram224',
-        linkedin: 'http://www.linkedin.com/narendram224',
-        title: 'How to use React',
-        text: 'Num of programming languages',
+        github: ':https://github.com/narendram224/dltfront',
+        linkedin:
+            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        title: 'URL shortner App',
+        text: 'Libraries& Tools: Angular,Nodejs,Expressjs,Mongoose,MongoDb',
+    },
+
+    {
+        id: 5,
+        category: 'Angular',
+        image: './assets/img1.jpg',
+        github: 'https://github.com/narendram224/angularDocker',
+        linkedin:
+            'https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/',
+        title: 'Docker Angular Image with auto reload',
+        text: 'Angular,Docker',
     },
 ]

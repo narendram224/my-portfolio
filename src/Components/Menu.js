@@ -50,6 +50,7 @@ const MenuItemStyled = styled.div`
             p {
                 font-size: 0.8rem;
                 color: var(--secondary-color);
+                word-break: break-all;
             }
             img {
                 width: 100%;

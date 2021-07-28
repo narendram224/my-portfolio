@@ -3,8 +3,6 @@ import styled from 'styled-components'
 import Navigation from './Navigation'
 
 const SideBar = ({ navToggle }) => {
-    console.log('navToggle', navToggle)
-
     return (
         <SideBarStyled className={`${navToggle ? 'nav-toggler' : ''}`}>
             <Navigation />
