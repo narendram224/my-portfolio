@@ -126,22 +126,32 @@ const AppWrapper = styled.div`
     }
     .menu_icon_wrapper {
         display: none;
+        transition: all 0.4s ease-in-out;
+        position: fixed;
+        right: 70px;
+        top: 9%;
+        z-index: 15;
+        translate: transform(rotateX(90deg));
+        span {
+            color: var(--white-color);
+        }
     }
 
     @media screen and (max-width: 1200px) {
         .menu_icon_wrapper {
             display: block;
-            transition: all 0.4s ease-in-out;
-            position: fixed;
-            right: 8%;
-            top: 9%;
-            z-index: 15;
-            translate: transform(rotateX(90deg));
-            span {
-                color: var(--white-color);
-            }
         }
     }
+    /* @media screen and (max-width: 770px) {
+        .menu_icon_wrapper {
+            right: 10%;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .menu_icon_wrapper {
+            right: 15%;
+        }
+    } */
 `
 const MainWrapper = styled.main`
     position: relative;

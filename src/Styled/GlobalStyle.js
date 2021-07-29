@@ -66,14 +66,9 @@ const GlobalStyle = createGlobalStyle`
         font-size:1.1rem;
     }
     @media screen and (max-width:720px){
-        font-size:0.9rem;
+        font-size:1rem;
     }
-    @media screen and (max-width:600px){
-        font-size:0.8rem;
-    }
-    @media screen and (max-width:500px){
-        font-size:0.8rem;
-    }
+    
     }
     body{
         background-color:var(--background-dark-color);

@@ -8,6 +8,7 @@ import SchoolIcon from '@material-ui/icons/School'
 import ResumeItem from './ResumeItem'
 const resumeContents = [
     {
+        id: 1,
         year: 'Jan 2020-March 2021',
         title: 'Web Developer',
         subTitle: 'Navana Tech in Banglore,Karnatka,India',
@@ -20,6 +21,7 @@ const resumeContents = [
         ],
     },
     {
+        id: 2,
         year: 'Aug 2020- Dec 2021',
         title: 'Web Developer',
         subTitle: 'NxtLife technologies in Gurgaon,Haryana,India',
@@ -30,6 +32,7 @@ const resumeContents = [
         ],
     },
     {
+        id: 3,
         year: 'Aug 2018-Sept 2018',
         title: 'FrontEnd Developer',
         subTitle: 'CureOre.com in Bhopal,Madhaya-Pradesh,India',
@@ -42,18 +45,21 @@ const resumeContents = [
 ]
 const educationalContents = [
     {
+        id: 1,
         year: 'jul 2015-Sept 2019',
         title: 'Bachelor of Engineering ',
         subTitle: 'Sagar Institute of Science & Technology',
         text: 'Computer Science with 7.3CGPA',
     },
     {
+        id: 2,
         year: 'July 2012-June 2014',
         title: 'InterMediate',
         subTitle: 'Aditya Birla Intermediate College,Renukoot,Sonebhadra,',
         text: 'Science Stream',
     },
     {
+        id: 3,
         year: 'July 2010-June 2012',
         title: 'Higher Seconadary',
         subTitle:
@@ -74,7 +80,7 @@ const Resume = () => {
                 </div>
                 <div className="resume-content">
                     {resumeContents.map((content) => (
-                        <ResumeItem key={content.year} {...content} />
+                        <ResumeItem key={content.id} {...content} />
                     ))}
                 </div>
                 <div className="small-title u-margin">
@@ -85,7 +91,7 @@ const Resume = () => {
                 </div>
                 <div className="resume-content">
                     {educationalContents.map((content) => (
-                        <ResumeItem key={content.year} {...content} />
+                        <ResumeItem key={content.id} {...content} />
                     ))}
                 </div>
             </InnerLayout>

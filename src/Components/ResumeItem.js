@@ -16,7 +16,9 @@ const ResumeItem = ({ year, title, subTitle, text }) => {
                         <>
                             {text.map((textData, ind) => {
                                 return (
-                                    <p className="skill-contents">{textData}</p>
+                                    <p key={ind} className="skill-contents">
+                                        {textData}
+                                    </p>
                                 )
                             })}
                         </>
