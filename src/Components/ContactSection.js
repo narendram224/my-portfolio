@@ -34,55 +34,58 @@ const ContactSection = () => {
         <MainLayout>
             <Title title="Contact" span="Contact" />
             <ContactSectionStyle>
-                <InnerLayout className="contact-section">
-                    <div className="left-content">
-                        <div className="contact-title">
-                            <h4>Get in touch</h4>
-                        </div>
-                        <form className="form">
-                            <div className="form-field">
-                                <label htmlFor="name" id="name">
-                                    Enter your Name*
-                                </label>
-                                <input type="text" id="name " />
+                <InnerLayout>
+                    <div className="contact-section">
+                        <div className="left-content">
+                            <div className="contact-title">
+                                <h4>Get in touch</h4>
                             </div>
-                            <FieldItem
-                                name="email"
-                                id="email"
-                                label="Enter the Email*"
-                            />
-
-                            <FieldItem
-                                name="subject"
-                                id="suject"
-                                label="Enter the Subject*"
-                            />
-                            <div className="form-field">
-                                <label htmlFor="textarea" id="name">
-                                    Enter your Message*
-                                </label>
-                                <textarea
-                                    name="textarea"
-                                    id="name "
-                                    col="30"
-                                    rows="8"
+                            <form className="form">
+                                <div className="form-field">
+                                    <label htmlFor="name" id="name">
+                                        Enter your Name*
+                                    </label>
+                                    <input type="text" id="name " />
+                                </div>
+                                <FieldItem
+                                    name="email"
+                                    id="email"
+                                    label="Enter the Email*"
                                 />
-                            </div>
-                            <div className="form-field form-button">
-                                <PrimaryButton title="Send Email" />
-                            </div>
-                        </form>
-                    </div>
-                    <div className="right-action">
-                        {ContactDetials.map((cItem, i) => (
-                            <ContactItems key={i} {...cItem} />
-                        ))}
-                        {/* <ContactItems
-                    icon={<PhoneIcon/>}
-                    title="Phone Number"
-                    contact1={7905325093}   
-                    contact2={9918569439}
-                    /> */}
+
+                                <FieldItem
+                                    name="subject"
+                                    id="suject"
+                                    label="Enter the Subject*"
+                                />
+                                <div className="form-field">
+                                    <label htmlFor="textarea" id="name">
+                                        Enter your Message*
+                                    </label>
+                                    <textarea
+                                        name="textarea"
+                                        id="name "
+                                        col="30"
+                                        rows="8"
+                                    />
+                                </div>
+                                <div className="form-field form-button">
+                                    <PrimaryButton title="Send Email" />
+                                </div>
+                            </form>
+                        </div>
+                        <div className="right-action">
+                            {ContactDetials.map((cItem, i) => (
+                                <ContactItems key={i} {...cItem} />
+                            ))}
+                            {/* <p>sfsfsfsf</p>
+                            <p>sfsfsfsf</p>
+                            <p>sfsfsfsf</p>
+                            <p>sfsfsfsf</p>
+                            <p>sfsfsfsf</p>
+                            <p>sfsfsfsf</p>
+                            <p>sfsfsfsf</p> */}
+                        </div>
                     </div>
                 </InnerLayout>
             </ContactSectionStyle>

@@ -62,6 +62,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Nunito', sans-serif;
         font-size:1.2rem;
+        word-break:break-word;
     @media screen and (max-width:1000px){
         font-size:1.1rem;
     }

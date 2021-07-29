@@ -93,7 +93,8 @@ const ImageSectionStyled = styled.div`
             display: flex;
             font-size: 0.9rem;
             .info-title {
-                padding-right: 3rem !important;
+                width: 45%;
+                /* padding-right: 3rem !important; */
                 p {
                     font-weight: 900;
                 }
