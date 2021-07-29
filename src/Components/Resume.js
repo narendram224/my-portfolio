@@ -46,7 +46,7 @@ const resumeContents = [
 const educationalContents = [
     {
         id: 1,
-        year: 'jul 2015-Sept 2019',
+        year: 'Jul 2015-Sept 2019',
         title: 'Bachelor of Engineering ',
         subTitle: 'Sagar Institute of Science & Technology',
         text: 'Computer Science with 7.3CGPA',
