@@ -100,7 +100,6 @@ const Resume = () => {
 }
 
 const ResumeStyle = styled.div`
-    background-color: green;
     .small-title {
         padding-bottom: 2rem;
     }

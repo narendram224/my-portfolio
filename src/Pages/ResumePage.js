@@ -10,7 +10,7 @@ const ResumePage = ({ setTitle }) => {
     return (
         <MainLayout>
             <ResumeStyled>
-                {/* <Skills /> */}
+                <Skills />
                 <Resume />
             </ResumeStyled>
         </MainLayout>
