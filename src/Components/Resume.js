@@ -41,7 +41,7 @@ const resumeContents = [
         id: 3,
         year: 'Jan 2020-March 2021',
         title: 'Sonftware Developer',
-        subTitle: '[Navana Tech] , Banglore,karnataka,India',
+        subTitle: '[Navana Tech] ,Banglore,karnataka,India',
         text: [
             'Building fully-functional CMS for managing chatbot events along with chatbot UI and placement on the screen of chatbot via CMS.',
             ' React ,Redux with Immer js, React hooks,Material UI ,JWT and React router dom etc are the main library that I have used for making product appearance, components logic.',
