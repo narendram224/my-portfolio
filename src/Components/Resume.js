@@ -11,7 +11,7 @@ const resumeContents = [
         id: 1,
         year: 'Nov 2021-Present',
         title: 'Software Engineer ',
-        subTitle: '[BitClass] , Banglore,karnataka,India',
+        subTitle: '[BitClass] , Banglore, karnataka,India',
         text: [
             'Implemented new responsive, mobile-first approach which increased mobile traffic by 20%.',
             'Improve company retention from 12% to 20% with QuickBit feature by this feature we increase cash flow approx 18%.',
