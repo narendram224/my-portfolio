@@ -26,7 +26,7 @@ const ContactSection = () => {
         {
             icon: <LocationOnIcon />,
             title: 'Address',
-            contact1: 'Mirzapur ,Uttar Pradesh,India',
+            contact1: 'Bangalore ,Karnataka,India',
             contact2: 'pin:231307',
         },
     ]

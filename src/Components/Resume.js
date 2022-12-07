@@ -9,9 +9,39 @@ import ResumeItem from './ResumeItem'
 const resumeContents = [
     {
         id: 1,
+        year: 'Nov 2021-Present',
+        title: 'Software Engineer ',
+        subTitle: '[BitClass] , Banglore,karnataka,India',
+        text: [
+            'Implemented new responsive, mobile-first approach which increased mobile traffic by 20%.',
+            'Improve company retention from 12% to 20% with QuickBit feature by this feature we increase cash flow approx 18%.',
+            'Rewrote jsx to meet industry and company standard for SEO and accessibility .',
+            'Mentor 2 junior frontend developer team in expanding javascript,next js,Reactjs skill-set .',
+            'Contributed in house UI library to create re- useable component that save over 100 hours of development time per month.',
+            'Worked closely with product and marketing team to redesign and improve the UI for activation and retention the user.',
+            'Worked on payments team to save over 10000 customers time & improve cash flow through the development and modern responsive customer experience .',
+            'Boosted conversion rate up to 46% by design and improvement .',
+            'Migrate full feature app in next js with handling of 1000 daily active users.',
+        ],
+    },
+    {
+        id: 2,
+        year: 'Sep 2021-Nov 2021',
+        title: 'Software Developer',
+        subTitle: '[Questt], Banglore,karnataka,India',
+        text: [
+            'Make teacher dashboard for teacher journey on Web.',
+            'Building fully feature teacher on boarding journey on web with React ,Redux , react hooks, redux saga for side effects, and Styled components.',
+            'React with typescript ,Redux with Immer js,Redux Saga ,React hooks,Material UI ,JWT',
+            'Made 10 Page with dynamic Data with api OTP verification.',
+            'Landing page chrome light-house score reached to 83%',
+        ],
+    },
+    {
+        id: 3,
         year: 'Jan 2020-March 2021',
-        title: 'Web Developer',
-        subTitle: 'Navana Tech in Banglore,Karnatka,India',
+        title: 'Sonftware Developer',
+        subTitle: '[Navana Tech] , Banglore,karnataka,India',
         text: [
             'Building fully-functional CMS for managing chatbot events along with chatbot UI and placement on the screen of chatbot via CMS.',
             ' React ,Redux with Immer js, React hooks,Material UI ,JWT and React router dom etc are the main library that I have used for making product appearance, components logic.',
@@ -21,7 +51,7 @@ const resumeContents = [
         ],
     },
     {
-        id: 2,
+        id: 4,
         year: 'Aug 2020- Dec 2021',
         title: 'Web Developer',
         subTitle: 'NxtLife technologies in Gurgaon,Haryana,India',
@@ -32,7 +62,7 @@ const resumeContents = [
         ],
     },
     {
-        id: 3,
+        id: 5,
         year: 'Aug 2018-Sept 2018',
         title: 'FrontEnd Developer',
         subTitle: 'CureOre.com in Bhopal,Madhaya-Pradesh,India',

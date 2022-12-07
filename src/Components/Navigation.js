@@ -51,7 +51,7 @@ const Navigation = () => {
                 </li>
             </ul>
             <footer className="footer">
-                <p>&#169;2021 Narendra Portfolio WebSite</p>
+                <p>&#169;2022 Narendra Portfolio WebSite</p>
             </footer>
         </NavigationStyled>
     )

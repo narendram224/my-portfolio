@@ -5,19 +5,29 @@ import styled from 'styled-components'
 import ProgressBar from './ProgressBar'
 const allSkills = [
     {
+        title: 'Next js',
+        width: '68%',
+        text: '68%',
+    },
+    {
+        title: 'Redux Toolkit',
+        width: '60%',
+        text: '60%',
+    },
+    {
         title: 'React',
         width: '70%',
         text: '70%',
     },
     {
-        title: 'Redux',
-        width: '60%',
-        text: '60%',
+        title: 'Landing Page optimization',
+        width: '50%',
+        text: '50%',
     },
     {
-        title: 'Axios',
-        width: '70%',
-        text: '70%',
+        title: 'Search engines optimization [SEO]',
+        width: '50%',
+        text: '50%',
     },
     {
         title: 'styled-components',
