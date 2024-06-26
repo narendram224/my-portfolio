@@ -10,7 +10,52 @@ const allSkills = [
         text: '68%',
     },
     {
-        title: 'Redux Toolkit',
+        title: 'Landing Page optimization',
+        width: '50%',
+        text: '50%',
+    },
+    {
+        title: 'Build optimisation',
+        width: '60%',
+        text: '60%',
+    },
+    {
+        title: 'Page performance',
+        width: '70%',
+        text: '70%',
+    },
+    {
+        title: 'Search engines optimization [SEO]',
+        width: '50%',
+        text: '50%',
+    },
+    {
+        title: 'Code quality with sonar qube',
+        width: '50%',
+        text: '50%',
+    },
+    {
+        title: 'Atomic Designing',
+        width: '80%',
+        text: '80%',
+    },
+    {
+        title: 'TypeScript',
+        width: '65%',
+        text: '65%',
+    },
+    {
+        title: 'Redux',
+        width: '70%',
+        text: '70%',
+    },
+    {
+        title: 'React query',
+        width: '70%',
+        text: '70%',
+    },
+    {
+        title: 'zustand',
         width: '60%',
         text: '60%',
     },
@@ -19,16 +64,7 @@ const allSkills = [
         width: '70%',
         text: '70%',
     },
-    {
-        title: 'Landing Page optimization',
-        width: '50%',
-        text: '50%',
-    },
-    {
-        title: 'Search engines optimization [SEO]',
-        width: '50%',
-        text: '50%',
-    },
+
     {
         title: 'styled-components',
         width: '60%',
@@ -40,30 +76,9 @@ const allSkills = [
         text: '60%',
     },
     {
-        title: 'Atomic Designing',
-        width: '80%',
-        text: '80%',
-    },
-
-    {
-        title: 'Nodejs',
-        width: '75%',
-        text: '75%',
-    },
-    {
-        title: 'Rest api using Express',
-        width: '70%',
-        text: '70%',
-    },
-    {
         title: 'Ionic',
         width: '60%',
         text: '60%',
-    },
-    {
-        title: 'JavaScript',
-        width: '70%',
-        text: '70%',
     },
     {
         title: 'Angular',
@@ -71,7 +86,12 @@ const allSkills = [
         text: '55%',
     },
     {
-        title: 'Docker',
+        title: 'Docker,Jenkins',
+        width: '50%',
+        text: '50%',
+    },
+    {
+        title: 'Nest js',
         width: '50%',
         text: '50%',
     },
@@ -81,11 +101,6 @@ const allSkills = [
         text: '40%',
     },
 
-    {
-        title: 'TypeScript',
-        width: '65%',
-        text: '65%',
-    },
     {
         title: 'AWS',
         width: '55%',

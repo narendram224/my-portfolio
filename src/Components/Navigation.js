@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import avatar from '../Assets/imgs/img4.jpeg'
+import avatar from '../Assets/imgs/photo1.jpeg'
 import SwingItem from './SwingItem'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
@@ -51,7 +51,7 @@ const Navigation = () => {
                 </li>
             </ul>
             <footer className="footer">
-                <p>&#169;2022 Narendra Portfolio WebSite</p>
+                <p>&#169;2024 Narendra Portfolio WebSite</p>
             </footer>
         </NavigationStyled>
     )

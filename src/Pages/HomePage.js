@@ -16,27 +16,30 @@ const HomePage = ({ setTitle }) => {
                         Hi I'am <span>Narendra Maurya</span>
                     </h1>
                     <p>
-                        "On the paper I have 3 years of experience but in
-                        reality the company given to me 3.5 years of experience
-                        beacause I'm a <span>Complan</span> boy. "
+                        "On paper, I've got 4.4 years of experience, but in
+                        reality, the company has given me 5 years of experience
+                        because I'm a <b>'Complan'</b> boy! 🏋️‍♂️💪✨"
                     </p>
                     <div className="icons">
                         <a
                             href="https://www.linkedin.com/in/narendra-kumar-maurya-69303a165/"
                             className="icon i-facebook"
-                            target="_blank">
+                            target="_blank"
+                            rel="noreferrer">
                             <FacebookIcon />
                         </a>
                         <a
                             href="https://github.com/narendram224/"
                             className="icon i-github"
-                            target="_blank">
+                            target="_blank"
+                            rel="noreferrer">
                             <GitHubIcon />
                         </a>
                         <a
                             href="https://stackoverflow.com/users/11711849/narendra-maurya"
                             className="icon i-stack"
-                            target="_blank">
+                            target="_blank"
+                            rel="noreferrer">
                             <ListAlt />
                         </a>
                     </div>

@@ -15,7 +15,6 @@ const ContactSection = () => {
             icon: <PhoneIcon />,
             title: 'Phone Number',
             contact1: '7905325093',
-            contact2: '9918569439',
         },
         {
             icon: <EmailIcon />,
@@ -26,8 +25,7 @@ const ContactSection = () => {
         {
             icon: <LocationOnIcon />,
             title: 'Address',
-            contact1: 'Bangalore ,Karnataka,India',
-            contact2: 'pin:231307',
+            contact1: 'Bangalore ,Karnataka,India 🌐',
         },
     ]
     return (

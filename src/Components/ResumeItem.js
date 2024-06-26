@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ResumeItem = ({ year, title, subTitle, text }) => {
+const ResumeItem = ({ year, title, subTitle, text, htmlconents }) => {
     return (
         <ResumeItemStyled>
             <div className="left-content">
@@ -26,6 +26,7 @@ const ResumeItem = ({ year, title, subTitle, text }) => {
                         <p>{text}</p>
                     )}
                 </div>
+                <div dangerouslySetInnerHTML={{ __html: htmlconents }} />
             </div>
         </ResumeItemStyled>
     )
@@ -84,7 +85,7 @@ const ResumeItemStyled = styled.div`
             color: var(--white-color);
         }
         p {
-            word-break: break-all;
+            word-break: break-word;
         }
         .skill-contents {
             position: relative;

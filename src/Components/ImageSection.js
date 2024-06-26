@@ -1,12 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from '../Assets/imgs/img1.jpg'
 import PrimaryButton from './PrimaryButton'
 const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left_content">
-                <img src="./assets/img42.jpg" alt="" />
+                <img src="./assets/photo1.jpeg" alt="" />
                 {/* <img src="./assets/opentoWork.png" alt="resume Img" /> */}
             </div>
             <div className="right_content">
@@ -16,14 +15,16 @@ const ImageSection = () => {
                     </h4>
                 </div>
                 <p className="paragraph">
-                    Passionate & Professional React and Mern stack
-                    developer,with rich experience of Rest api and web
-                    development
+                    A solution-driven Frontend Developer 💻 at Leap Finance with
+                    over 4.4 years of experience, I specialize in creating
+                    dynamic and responsive web applications. 🚀 My expertise
+                    spans across technologies such as Next.js 🔥, TypeScript 🎨,
+                    React 🧠, Redux 📚, MongoDB 🗄️, Express 🌐, and Nest.js
+                    🐱‍🏍.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
-                        <p>Age</p>
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Location</p>
@@ -33,9 +34,7 @@ const ImageSection = () => {
                         <p>
                             <span>:</span>Narendra Kumar Maurya
                         </p>
-                        <p>
-                            <span>:</span>24
-                        </p>
+
                         <p>
                             <span>:</span>Indian
                         </p>
@@ -43,17 +42,18 @@ const ImageSection = () => {
                             <span>:</span>English , Hindi
                         </p>
                         <p>
-                            <span>:</span>Bummanhali,Banglore,Karnataka ,India
+                            <span>:</span> Banglore,Karnataka ,India
                         </p>
                         <p>
-                            <span>:</span>Web Developer
+                            <span>:</span>Frontend Developement,Build
+                            optimisation,page performance,user retention
                         </p>
                     </div>
                 </div>
                 <PrimaryButton
                     title="Download Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1a5VpqC6PjbG3ql3VT4XrA_zMXe2b2Gih/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1CI2wrAiYsuJtvvQLCq2CZ7Oc63Po_8gf/view?usp=sharing"
                 />
             </div>
         </ImageSectionStyled>
