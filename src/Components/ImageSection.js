@@ -16,7 +16,7 @@ const ImageSection = () => {
                 </div>
                 <p className="paragraph">
                     A solution-driven Frontend Developer 💻 at Leap Finance with
-                    over 4.4 years of experience, I specialize in creating
+                    over 4.8 years of experience, I specialize in creating
                     dynamic and responsive web applications. 🚀 My expertise
                     spans across technologies such as Next.js 🔥, TypeScript 🎨,
                     React 🧠, Redux 📚, MongoDB 🗄️, Express 🌐, and Nest.js
