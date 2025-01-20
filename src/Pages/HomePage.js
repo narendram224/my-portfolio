@@ -16,7 +16,7 @@ const HomePage = ({ setTitle }) => {
                         Hi I'am <span>Narendra Maurya</span>
                     </h1>
                     <p>
-                        "On paper, I've got 4.4 years of experience, but in
+                        "On paper, I've got 4.9 years of experience, but in
                         reality, the company has given me 5 years of experience
                         because I'm a <b>'Complan'</b> boy! 🏋️‍♂️💪✨"
                     </p>
